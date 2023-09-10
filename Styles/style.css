@@ -5,14 +5,6 @@ body{
 .text-primary{
    color: #FD6E0A;
 }
-.section-title{
-    color: #181818;
-    text-align: center;
-    font-size: 35px;
-    font-weight: 700;
-
-}
-
 
 /* nav related styles */
 nav{
@@ -45,7 +37,7 @@ nav a{
     border-radius: 5px;
     background: #FD6E0A;
     border:0px;
-    color: var(--White-Color, #FFF);
+    color: #FFF;
     font-size: 20px;
     font-weight: 700;
     padding:15px 35px;
@@ -57,6 +49,7 @@ nav a{
     background-image: url("../images/header_bg.png");
     background-repeat: no-repeat;
     background-position: bottom right;
+}
 
 .banner{
     padding:30px 30px 0px 150px;
@@ -67,7 +60,7 @@ nav a{
 .banner .profile-pic{
     width: 500px;
 }
-.banner-greetig{
+.banner-greeting{
     font: size 45px;
     color:#474747;
     margin-bottom:0px;
@@ -76,7 +69,7 @@ nav a{
     font-size: 85px;
     font-weight: 700;
     margin-top: 5px;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
     
 }
 .banner-description{
@@ -87,21 +80,60 @@ nav a{
     max-width: 500px;
 }
 
-/* main section styles */
-
-
-/* about section styles */
-.about{
-    padding:130px;
-    border-radius: 10px;
-    background-color: #FFF8F3;
-    margin-top:130px;
-   
-
+.section-title{
+    color:#181818;
+    text-align:center;
+    font-size:35px;
+    font-weight: 700;
 }
 .section-description{
-    color: #757575;
+    color:#757575;
     text-align:center;
-    font-size: 18px; 
+    font-size: 18px;
+
 }
-  
+.about{
+    padding:130px;
+    border-radius:10px;
+    background-color: #FFF8F3;
+    margin: 130px 0;
+
+}
+main{
+    max-width: 1140px;
+    margin:0 auto;
+}
+.about-info-container{
+    display:flex;
+    justify-content: space-around;
+    color:#757575;
+    text-align: center;
+    font-size: 20px;
+    /* font-weight: 400; */
+    line-height: 30px;
+    /* line-height: 1px; */
+}
+.info-description{
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+#what-i-do{
+    padding: 30px 150px;
+
+}
+.skills-container{
+    display:flex;
+    gap:24px;
+    
+}
+.skills{
+    padding:30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+
+}
+/* main related */
+main section{
+    padding-top:130px;
+}
